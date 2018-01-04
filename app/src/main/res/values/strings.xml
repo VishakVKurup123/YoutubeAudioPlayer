@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YoutubeAudioPlayer</string>
+    <string name="channel_name">YoutubeAudioPlayerChannel</string>
+    <string name="channel_description">YoutubeAudioPlayer Description</string>
+    <string name="admob_id">ca-app-pub-9724489974770910~5325938981</string>
+    <string name="adUnitId">ca-app-pub-9724489974770910/3190730231</string>
+    <string name="strBuffer">Buffering...</string>
+</resources>

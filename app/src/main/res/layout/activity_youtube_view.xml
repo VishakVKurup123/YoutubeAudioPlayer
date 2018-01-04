@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        >
+        <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/webview"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLayout"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAlphaBG"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add"
+                android:onClick="onAddBtnClicked"
+                android:background="@null"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/music_player"
+                android:onClick="onBackBtnClicked"
+                android:background="@null"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
+
+
